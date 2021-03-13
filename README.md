@@ -10,7 +10,7 @@ contract Faucet{
         require(withdrawAmt <=100);
         
         
-        //send amount to the adress requested
+        //Send amount to the adress requested
         msg.sender.transfer(withdrawAmt);
         
         //accept ether
