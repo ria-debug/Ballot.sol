@@ -13,7 +13,7 @@ contract Faucet{
         //Send amount to the adress requested
         msg.sender.transfer(withdrawAmt);
         
-        //accept ether
+        //Accept ether
       function () public payable {}
         
     }
